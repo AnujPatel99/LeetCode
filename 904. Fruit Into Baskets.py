@@ -14,6 +14,4 @@ class Solution(object):
                 if d[fruits[i]] == 0: # if first fruit is gone
                     del d[fruits[i]] # get rid of first fruit
                 i += 1               # increse i to next val
-            print d
-        print j, i
         return j - i + 1
